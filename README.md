@@ -10,8 +10,7 @@ Features:
     Answer Generation: After text extraction, the application analyzes the extracted text to generate answers using an OpenAI language model.
 
     Retry Mechanism: If the extracted text is not satisfactory, users can request a retry, which sends the image to OpenAI again for analysis.
-Certainly! Here's a README file for your GitHub repository based on the provided code:
-Learning APP
+
 
 This is a Streamlit-based Learning Application that allows users to upload images or capture images from the camera, extract text from these images, and then analyze the extracted text using OpenAI's language model to provide answers to questions.
 Features:
