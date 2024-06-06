@@ -28,23 +28,23 @@ Cost Analysis: The application displays the cost of the analysis performed by Op
 
 How to Run:
 
-    Clone this repository to your local machine.
+Clone this repository to your local machine.
 
-    Install the required dependencies by running:
+Install the required dependencies by running:
 
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
 Run the Streamlit app by executing:
 
-    streamlit run app.py
+streamlit run app.py
 
-    Once the application is running, select the desired image source (either upload an image or capture from the camera).
+Once the application is running, select the desired image source (either upload an image or capture from the camera).
 
-    After the image is processed, the extracted text will be displayed along with an option to confirm and continue or retry the analysis.
+After the image is processed, the extracted text will be displayed along with an option to confirm and continue or retry the analysis.
 
-    If the analysis is confirmed, the application will provide the generated answer based on the extracted text.
+If the analysis is confirmed, the application will provide the generated answer based on the extracted text.
 
-    If the extracted text is unsatisfactory, users can retry the analysis, which will send the image to OpenAI again for re-analysis.
+If the extracted text is unsatisfactory, users can retry the analysis, which will send the image to OpenAI again for re-analysis.
 
-    After the analysis, the application will display the generated answer along with the cost of the analysis.
+After the analysis, the application will display the generated answer along with the cost of the analysis.
 
